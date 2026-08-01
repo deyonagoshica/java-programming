@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("===== RESUME =====");
+        System.out.println("Name    : Deyona Goshica R");
+        System.out.println("College : Karunya Institute of Technology and Sciences");
+        System.out.println("Degree  : B.Tech");
+        System.out.println("Branch  : CSE");
+        System.out.println("Skills  : Java, Python, SQL");
+    }
+}
