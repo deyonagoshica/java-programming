@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("========= INVOICE =========");
+        System.out.println("Item        Qty     Price");
+        System.out.println("Book         2      500");
+        System.out.println("Pen          5      50");
+        System.out.println("---------------------------");
+        System.out.println("Total              550");
+    }
+}
