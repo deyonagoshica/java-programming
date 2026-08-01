@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[] args){
+        System.out.println("day 1  2  3  4  5  6");
+        System.out.println("mon ta en ma sc so fr");
+        System.out.println("tue ta en ma sc so fr");
+        System.out.println("wed ta en ma sc so fr");
+        System.out.println("thr ta en ma sc so fr");
+        System.out.println("fri ta en ma sc so fr");
+
+    }
+}
