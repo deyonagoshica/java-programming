@@ -1,0 +1,39 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+        int max = 0;
+        for (int i = 0; i < n; i++) {
+            for(int a=i;a<n;a++){
+                int sum=0;
+                int distinct=0;
+                for(int b=i;b<=a;b++){
+                    sum += arr[b];
+                    boolean found=false;
+                    for(int c=i;c<b;c++){
+                        if(arr[b]==arr[c]){
+                            found=true;
+                            break;
+                        }
+                    }
+                    if(!found){
+                        distinct++;
+                    }
+                }
+                if(distinct<=k){
+                    if(sum>max){
+                        max=sum;
+                    }
+                }
+            }
+        }
+        System.out.println(max);
+
+    }
+}
